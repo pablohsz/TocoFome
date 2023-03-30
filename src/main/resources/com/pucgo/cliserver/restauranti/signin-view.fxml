@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pucgo.cliserver.restauranti.SignController">
+   <children>
+      <ImageView fitHeight="49.0" fitWidth="131.0" layoutX="116.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/toco_fome_logoname.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="135.0" layoutY="116.0" text="CRIAR CONTA" textFill="#606060">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userTextField" layoutX="46.0" layoutY="162.0" prefHeight="25.0" prefWidth="260.0" promptText="Username" style="-fx-background-color: #FFCCBC; -fx-background-radius: 12; -fx-prompt-text-fill: #757575;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="nameTextField" layoutX="46.0" layoutY="211.0" prefHeight="25.0" prefWidth="260.0" promptText="Nome" style="-fx-background-color: #FFCCBC; -fx-background-radius: 12; -fx-prompt-text-fill: #757575;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="emailTextField" layoutX="47.0" layoutY="261.0" prefHeight="25.0" prefWidth="260.0" promptText="E-mail" style="-fx-background-color: #FFCCBC; -fx-background-radius: 12; -fx-prompt-text-fill: #757575;">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <PasswordField fx:id="passPassField" layoutX="46.0" layoutY="311.0" prefHeight="25.0" prefWidth="260.0" promptText="Senha" style="-fx-background-color: #FFCCBC; -fx-background-radius: 12; -fx-prompt-text-fill: #757575;">
+         <font>
+            <Font size="13.0" />
+         </font></PasswordField>
+      <CheckBox fx:id="acceptCheckBox" layoutX="69.0" layoutY="370.0" mnemonicParsing="false" text="Aceito os termos e condições de uso" />
+      <Button fx:id="signinButton" layoutX="127.0" layoutY="426.0" mnemonicParsing="false" onAction="#signinOnClick" style="-fx-pref-width: 100; -fx-font-size: 13; -fx-font-weight: bold; -fx-background-color: #FF5722; -fx-background-radius: 15;" text="CADASTRAR" textFill="WHITE" />
+   </children>
+</AnchorPane>
