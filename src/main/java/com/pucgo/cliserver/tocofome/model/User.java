@@ -1,6 +1,4 @@
-package com.pucgo.cliserver.restauranti.model;
-
-import org.apache.commons.codec.digest.DigestUtils;
+package com.pucgo.cliserver.tocofome.model;
 
 public class User {
 

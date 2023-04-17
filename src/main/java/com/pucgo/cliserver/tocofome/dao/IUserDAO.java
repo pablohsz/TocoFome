@@ -1,6 +1,6 @@
-package com.pucgo.cliserver.restauranti.dao;
+package com.pucgo.cliserver.tocofome.dao;
 
-import com.pucgo.cliserver.restauranti.model.User;
+import com.pucgo.cliserver.tocofome.model.User;
 
 import java.util.Optional;
 

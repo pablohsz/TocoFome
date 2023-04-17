@@ -7,6 +7,6 @@ module com.pucgo.cliserver.restauranti {
     requires org.apache.commons.codec;
     requires java.sql;
 
-    opens com.pucgo.cliserver.restauranti to javafx.fxml;
-    exports com.pucgo.cliserver.restauranti;
+    opens com.pucgo.cliserver.tocofome to javafx.fxml;
+    exports com.pucgo.cliserver.tocofome;
 }

@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pucgo.cliserver.restauranti.SignController">
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pucgo.cliserver.tocofome.SignController">
    <children>
       <ImageView fitHeight="49.0" fitWidth="131.0" layoutX="116.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
          <image>

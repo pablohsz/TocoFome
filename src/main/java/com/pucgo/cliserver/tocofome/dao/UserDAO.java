@@ -1,8 +1,9 @@
-package com.pucgo.cliserver.restauranti.dao;
+package com.pucgo.cliserver.tocofome.dao;
 
-import com.pucgo.cliserver.restauranti.config.ConnectionFactory;
-import com.pucgo.cliserver.restauranti.model.User;
+import com.pucgo.cliserver.tocofome.config.ConnectionFactory;
+import com.pucgo.cliserver.tocofome.model.User;
 
+import java.io.IOException;
 import java.sql.*;
 import java.util.Optional;
 
@@ -19,7 +20,7 @@ public class UserDAO implements IUserDAO{
             statement.setString(3, user.getEmail());
             statement.setString(4, user.getPassword());
             statement.executeUpdate();
-        } catch (SQLException e) {
+        } catch (SQLException | IOException e) {
             System.err.print(e.getMessage());
             return false;
         }
@@ -42,7 +43,7 @@ public class UserDAO implements IUserDAO{
                         resultSet.getString("name"),
                         resultSet.getString("email"),
                         resultSet.getString("password"));
-        } catch (SQLException e) {
+        } catch (SQLException | IOException e) {
             throw new RuntimeException(e);
         }
         return Optional.ofNullable(user);

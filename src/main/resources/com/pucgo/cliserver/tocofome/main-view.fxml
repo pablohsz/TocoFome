@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="674.0" prefWidth="822.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pucgo.cliserver.tocofome.MainViewController">
+   <children>
+      <ImageView fx:id="mainBanner" fitHeight="150.0" fitWidth="754.0" layoutX="34.0" layoutY="22.0" onMouseClicked="#onMouseEnter" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/toco_fome_banner.png" />
+         </image></ImageView>
+      <ImageView fx:id="selectItemImage" fitHeight="300.0" fitWidth="300.0" layoutX="37.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true" />
+      <ListView fx:id="itemsList" layoutX="362.0" layoutY="187.0" prefHeight="454.0" prefWidth="430.0" />
+      <Label fx:id="itemName" layoutX="43.0" layoutY="504.0" maxHeight="0.0" prefWidth="300.0" text="ITEM">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceItem" layoutX="43.0" layoutY="605.0" text="R$99,99">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionItem" layoutX="43.0" layoutY="535.0" prefHeight="58.0" prefWidth="300.0" style="-fx-wrap-text: true; -fx-text-alignment: justify;" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+   </children>
+</AnchorPane>
