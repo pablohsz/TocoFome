@@ -41,6 +41,7 @@ CREATE TABLE IF NOT EXISTS public.users
 
 Desenvolvido por Pablo Souza
 \
+\
 *Escola Politécnica*
 \
 **Pontifícia Universidade Católica de Goiás**
