@@ -38,8 +38,9 @@ CREATE TABLE IF NOT EXISTS public.users
     CONSTRAINT user_primarykey PRIMARY KEY (username)
 )
 ```
-.
+
 Desenvolvido por Pablo Souza
-.
+\
 *Escola Politécnica*
+\
 **Pontifícia Universidade Católica de Goiás**
